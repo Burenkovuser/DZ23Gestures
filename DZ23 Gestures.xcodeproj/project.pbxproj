@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB60409D1E360E7800360B64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB60409C1E360E7800360B64 /* main.m */; };
+		FB6040A01E360E7800360B64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB60409F1E360E7800360B64 /* AppDelegate.m */; };
+		FB6040A31E360E7800360B64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6040A21E360E7800360B64 /* ViewController.m */; };
+		FB6040A61E360E7800360B64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6040A41E360E7800360B64 /* Main.storyboard */; };
+		FB6040A81E360E7800360B64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB6040A71E360E7800360B64 /* Assets.xcassets */; };
+		FB6040AB1E360E7800360B64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6040A91E360E7800360B64 /* LaunchScreen.storyboard */; };
+		FB6040B61E360ED400360B64 /* walk a.PNG in Resources */ = {isa = PBXBuildFile; fileRef = FB6040B21E360ED400360B64 /* walk a.PNG */; };
+		FB6040B71E360ED400360B64 /* walk b.PNG in Resources */ = {isa = PBXBuildFile; fileRef = FB6040B31E360ED400360B64 /* walk b.PNG */; };
+		FB6040B81E360ED400360B64 /* walk c.PNG in Resources */ = {isa = PBXBuildFile; fileRef = FB6040B41E360ED400360B64 /* walk c.PNG */; };
+		FB6040B91E360ED400360B64 /* walk d.PNG in Resources */ = {isa = PBXBuildFile; fileRef = FB6040B51E360ED400360B64 /* walk d.PNG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB6040981E360E7800360B64 /* DZ23 Gestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DZ23 Gestures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB60409C1E360E7800360B64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB60409E1E360E7800360B64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB60409F1E360E7800360B64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB6040A11E360E7800360B64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB6040A21E360E7800360B64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB6040A51E360E7800360B64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB6040A71E360E7800360B64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB6040AA1E360E7800360B64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB6040AC1E360E7800360B64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB6040B21E360ED400360B64 /* walk a.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "walk a.PNG"; sourceTree = "<group>"; };
+		FB6040B31E360ED400360B64 /* walk b.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "walk b.PNG"; sourceTree = "<group>"; };
+		FB6040B41E360ED400360B64 /* walk c.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "walk c.PNG"; sourceTree = "<group>"; };
+		FB6040B51E360ED400360B64 /* walk d.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "walk d.PNG"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB6040951E360E7800360B64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB60408F1E360E7800360B64 = {
+			isa = PBXGroup;
+			children = (
+				FB60409A1E360E7800360B64 /* DZ23 Gestures */,
+				FB6040991E360E7800360B64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB6040991E360E7800360B64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB6040981E360E7800360B64 /* DZ23 Gestures.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB60409A1E360E7800360B64 /* DZ23 Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				FB6040B21E360ED400360B64 /* walk a.PNG */,
+				FB6040B31E360ED400360B64 /* walk b.PNG */,
+				FB6040B41E360ED400360B64 /* walk c.PNG */,
+				FB6040B51E360ED400360B64 /* walk d.PNG */,
+				FB60409E1E360E7800360B64 /* AppDelegate.h */,
+				FB60409F1E360E7800360B64 /* AppDelegate.m */,
+				FB6040A11E360E7800360B64 /* ViewController.h */,
+				FB6040A21E360E7800360B64 /* ViewController.m */,
+				FB6040A41E360E7800360B64 /* Main.storyboard */,
+				FB6040A71E360E7800360B64 /* Assets.xcassets */,
+				FB6040A91E360E7800360B64 /* LaunchScreen.storyboard */,
+				FB6040AC1E360E7800360B64 /* Info.plist */,
+				FB60409B1E360E7800360B64 /* Supporting Files */,
+			);
+			path = "DZ23 Gestures";
+			sourceTree = "<group>";
+		};
+		FB60409B1E360E7800360B64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB60409C1E360E7800360B64 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB6040971E360E7800360B64 /* DZ23 Gestures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB6040AF1E360E7800360B64 /* Build configuration list for PBXNativeTarget "DZ23 Gestures" */;
+			buildPhases = (
+				FB6040941E360E7800360B64 /* Sources */,
+				FB6040951E360E7800360B64 /* Frameworks */,
+				FB6040961E360E7800360B64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DZ23 Gestures";
+			productName = "DZ23 Gestures";
+			productReference = FB6040981E360E7800360B64 /* DZ23 Gestures.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB6040901E360E7800360B64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Vasilii Burenkov";
+				TargetAttributes = {
+					FB6040971E360E7800360B64 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FB6040931E360E7800360B64 /* Build configuration list for PBXProject "DZ23 Gestures" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB60408F1E360E7800360B64;
+			productRefGroup = FB6040991E360E7800360B64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB6040971E360E7800360B64 /* DZ23 Gestures */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB6040961E360E7800360B64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6040B91E360ED400360B64 /* walk d.PNG in Resources */,
+				FB6040AB1E360E7800360B64 /* LaunchScreen.storyboard in Resources */,
+				FB6040B61E360ED400360B64 /* walk a.PNG in Resources */,
+				FB6040A81E360E7800360B64 /* Assets.xcassets in Resources */,
+				FB6040B71E360ED400360B64 /* walk b.PNG in Resources */,
+				FB6040A61E360E7800360B64 /* Main.storyboard in Resources */,
+				FB6040B81E360ED400360B64 /* walk c.PNG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB6040941E360E7800360B64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6040A31E360E7800360B64 /* ViewController.m in Sources */,
+				FB6040A01E360E7800360B64 /* AppDelegate.m in Sources */,
+				FB60409D1E360E7800360B64 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB6040A41E360E7800360B64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB6040A51E360E7800360B64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB6040A91E360E7800360B64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB6040AA1E360E7800360B64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB6040AD1E360E7800360B64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB6040AE1E360E7800360B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB6040B01E360E7800360B64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DZ23 Gestures/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.burenkov.DZ23-Gestures";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB6040B11E360E7800360B64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DZ23 Gestures/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.burenkov.DZ23-Gestures";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB6040931E360E7800360B64 /* Build configuration list for PBXProject "DZ23 Gestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6040AD1E360E7800360B64 /* Debug */,
+				FB6040AE1E360E7800360B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB6040AF1E360E7800360B64 /* Build configuration list for PBXNativeTarget "DZ23 Gestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB6040B01E360E7800360B64 /* Debug */,
+				FB6040B11E360E7800360B64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB6040901E360E7800360B64 /* Project object */;
+}
