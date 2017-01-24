@@ -11,6 +11,7 @@
 @interface ViewController ()<UIGestureRecognizerDelegate>
 
 @property(weak,nonatomic) UIImageView *imageView;
+@property(assign,nonatomic) CGFloat viewScale;
 
 @end
 
@@ -55,12 +56,23 @@
     
     [self.view addGestureRecognizer:doubleTapTouchGesture];
     
+    //поворот направо
     UISwipeGestureRecognizer *rightSwipeGesture = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(handleRighSwipeGesture:)];
     
     rightSwipeGesture.direction = UISwipeGestureRecognizerDirectionRight;
     [self.view addGestureRecognizer:rightSwipeGesture];
     
-  
+    //пововорот налево не работает
+    UISwipeGestureRecognizer *leftSwipeGesture = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(handleLeftSwipeGesture:)];
+    
+    leftSwipeGesture.direction = UISwipeGestureRecognizerDirectionLeft;
+    [self.view addGestureRecognizer:leftSwipeGesture];
+    
+    UIPinchGestureRecognizer* pinchGesture = [[UIPinchGestureRecognizer alloc] initWithTarget:self action:@selector(handlePichGesture:)];
+    pinchGesture.delegate = self;
+    [self.view addGestureRecognizer:pinchGesture];
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -95,10 +107,14 @@
 }
 // поворот по часовой стрелке
 -(void) handleRighSwipeGesture:(UISwipeGestureRecognizer*) rightSwipeGesture {
-    [self rotateView:self.imageView withRotationDuration:1 andAngle:3.14];
+    [self rotateView:self.imageView withRotationDuration:1 andAngle: M_PI];
     
 }
-
+-(void) handleLeftSwipeGesture:(UISwipeGestureRecognizer*) leftSwipeGesture {
+    [self rotateView:self.imageView withRotationDuration:1 andAngle: -M_PI];
+    
+}
+//вью для поворота
 -(void) rotateView:(UIView*) view withRotationDuration:(int) duration andAngle:(CGFloat) angle {
     CGAffineTransform currentTransform = view.transform;
     CGAffineTransform newTransform = CGAffineTransformRotate(currentTransform, angle);;
@@ -120,6 +136,19 @@
                      }];
     
 }
+
+-(void) handlePichGesture:(UIPinchGestureRecognizer*) pinchGesture {
+    if (pinchGesture.state == UIGestureRecognizerStateBegan) {
+        self.viewScale = 1.f;
+    }
+    
+    CGAffineTransform currentTransform = self.imageView.transform;
+    CGFloat newScale = 1.f + pinchGesture.scale - self.viewScale;
+    CGAffineTransform newTransfom = CGAffineTransformScale(currentTransform, newScale, newScale);
+    self.imageView.transform = newTransfom;
+    self.viewScale = pinchGesture.scale;
+}
+
 // поддержка всех жестов
 - (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldRequireFailureOfGestureRecognizer:(UIGestureRecognizer *)otherGestureRecognizer {
     return YES;
